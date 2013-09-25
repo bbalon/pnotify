@@ -1,8 +1,10 @@
-/*
- * jQuery Pines Notify (pnotify) Plugin 1.2.2
+/**
+ * @license jQuery Pines Notify (pnotify) Plugin 1.2.2
  *
  * http://pinesframework.org/pnotify/
  * Copyright (c) 2009-2012 Hunter Perrin
+ * 
+ * Modified Blaz Balon for Bootstrap 3
  *
  * Triple license under the GPL, LGPL, and MPL:
  *	  http://www.gnu.org/licenses/gpl.html
@@ -36,22 +38,22 @@
 				hi_hnd: "ui-icon ui-icon-grip-dotted-horizontal"
 			},
 			bootstrap: {
-				container: "alert",
-				notice: "",
-				notice_icon: "icon-exclamation-sign",
-				info: "alert-info",
-				info_icon: "icon-info-sign",
-				success: "alert-success",
-				success_icon: "icon-ok-sign",
-				error: "alert-error",
-				error_icon: "icon-warning-sign",
-				closer: "icon-remove",
-				pin_up: "icon-pause",
-				pin_down: "icon-play",
-				hi_menu: "well",
-				hi_btn: "btn",
-				hi_btnhov: "",
-				hi_hnd: "icon-chevron-down"
+		                container: "alert",
+		                notice: "alert-info",
+		                notice_icon: "glyphicon glyphicon-exclamation-sign",
+		                info: "alert-info",
+		                info_icon: "glyphicon glyphicon-info-sign",
+		                success: "alert-success",
+		                success_icon: "glyphicon glyphicon-ok-sign",
+		                error: "alert-danger",
+		                error_icon: "glyphicon glyphicon-warning-sign",
+		                closer: "glyphicon glyphicon-remove",
+		                pin_up: "glyphicon glyphicon-pause",
+		                pin_down: "glyphicon glyphicon-play",
+		                hi_menu: "well",
+		                hi_btn: "btn btn-default",
+		                hi_btnhov: "",
+		                hi_hnd: "glyphicon glyphicon-chevron-down"
 			}
 		};
 	// Set global variables.
